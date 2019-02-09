@@ -1,10 +1,10 @@
-# urnframework-app-core
+# react-native-easystore
 
 This library provides a store for use with reactJS/react-native applications, this library enables simple and easy data sharing between components, the state management of the component is left to the developers.
 
 ## Getting started
 
-`$ npm install urnframework-app-core --save`
+`$ npm install react-native-easystore --save`
 
 ## Initialization
 
@@ -18,7 +18,7 @@ In your App.js file add
 ```javascript
 import React from "react";
 import { View, Text } from "react-native";
-import AppContext from "urnframework-app-core"; //<-- add this
+import AppContext from "react-native-easystore"; //<-- add this
 import AppContextModel from "./appContextModel";
 
 export default class App extends React.Component<Props> {
@@ -54,7 +54,7 @@ The store can be used to hold any data at anytime, However it is recommened that
 ```javascript
 import React from "react";
 import { View, Text, TextInput } from "react-native";
-import AppContext from "urnframework-app-core";
+import AppContext from "react-native-easystore";
 
 class ExampleComponent extends React.Component {
   constructor(props) {
