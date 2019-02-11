@@ -17,5 +17,9 @@
   "peerDependencies": {
     "react-native": "^0.41.2",
     "react-native-basic-components": "1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Samykills/react-native-easystore"
   }
 }
