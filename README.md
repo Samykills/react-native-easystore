@@ -8,7 +8,7 @@ This library provides a store for use with reactJS/react-native applications, th
 
 ## Initialization
 
-The idea us to have a common store so that all the components of the APP can share from same data source.
+The idea is to have a common store so that all the components of the APP can share from same data source.
 Managing the state of the Component is left to developers.
 
 To initalize the library we need to add the structure of store to be used by the application.
